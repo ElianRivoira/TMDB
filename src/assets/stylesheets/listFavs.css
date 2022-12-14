@@ -1,0 +1,18 @@
+.favDiv1 {
+  display: flex;
+  justify-content: center; }
+
+.favDiv2 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; }
+  .favDiv2 li {
+    width: fit-content;
+    padding-top: 10px; }
+    .favDiv2 li strong {
+      padding-left: 10px; }
+
+.singleFav {
+  width: fit-content; }

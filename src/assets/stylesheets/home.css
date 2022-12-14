@@ -1,0 +1,80 @@
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  max-width: 100%; }
+
+.section1div1 {
+  background-image: url("https://www.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,032541,01b4e4)/34OGjFEbHj0E3lE2w0iTUVq0CBz.jpg");
+  height: 360px;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  width: 1400px; }
+  .section1div1 .section1div2 {
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    width: 100%; }
+    .section1div1 .section1div2 .section1div3 {
+      justify-content: center;
+      align-items: flex-start;
+      align-content: flex-start;
+      width: 100%;
+      padding: 30px 40px;
+      margin-bottom: 20px;
+      color: white;
+      max-width: 1400px; }
+      .section1div1 .section1div2 .section1div3 h1 {
+        margin: 0;
+        font-family: "Source Sans Pro", Arial, sans-serif;
+        font-size: 3em;
+        font-weight: 700; }
+      .section1div1 .section1div2 .section1div3 h3 {
+        margin: 0;
+        font-family: "Source Sans Pro", Arial, sans-serif;
+        font-size: 2em;
+        font-weight: 600;
+        text-shadow: 1px 1px 4px black; }
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  max-width: 100%;
+  padding-top: 50px; }
+
+.section2div1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1400px; }
+
+.search {
+  font-size: 60px;
+  text-decoration: none;
+  color: black; }
+
+.h5Search {
+  text-shadow: 1px 1px 4px black;
+  margin: 0; }
+
+.imgSearch {
+  width: 400px;
+  height: 400px;
+  border-radius: 6%;
+  box-shadow: 5px 5px 7px 1px rgba(0, 0, 0, 0.5); }
+
+.divSearch {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 400px;
+  text-align: center; }

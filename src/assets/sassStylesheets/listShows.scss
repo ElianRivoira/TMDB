@@ -1,0 +1,91 @@
+@import "./colors.scss";
+
+.navSearch {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  input {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+}
+
+.shows {
+  width: 70%;
+  justify-content: center;
+}
+
+.singleShow {
+  border: 2px solid black;
+  border-radius: 25px;
+  margin-top: 10px;
+  padding: 0 15px;
+  text-align: justify;
+  box-shadow: 5px 5px 12px 1px rgba(0, 0, 0, 0.8);
+  width: 100%;
+  p {
+    font-size: 17px;
+    transition-property: font-size;
+    transition-delay: 0.1s;
+    transition-duration: 0.05s;
+  }
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: white;
+  transition-property: width, height top, left;
+  transition-delay: 0.1s;
+  transition-duration: 0.05s;
+}
+.singleShow:hover {
+  width: 120%;
+  height: max-content;
+  padding: 1% 2%;
+  h5 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 25px;
+  }
+  position: relative;
+  top: -15px;
+  left: -96px;
+  z-index: 2;
+  background-color: white;
+}
+
+.titleShow {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin: 10px 0;
+  h5 {
+    margin: 0;
+    font-size: 1em;
+    transition-property: font-size;
+    transition-delay: 0.1s;
+    transition-duration: 0.05s;
+  }
+}
+.titleShow:hover {
+  color: $secondary;
+  transition: 0.4s;
+  animation-delay: 0.1s;
+}
+
+.favButton {
+  height: 26px;
+  margin-right: 0;
+}
+
+.titleDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.overviewDiv {
+  p {
+    margin-top: 0;
+  }
+}

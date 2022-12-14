@@ -1,0 +1,59 @@
+@import "./colors.scss";
+
+#logo {
+    width: 154px;
+    height: 60px;
+    margin: 0;
+    padding-left: 10px;
+  }
+
+  .navButton {
+    padding-right: 10px;
+
+  }
+  
+  .nav {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: $primary;
+  }
+
+  .navLogin {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: $primary;
+    height: 64px;
+  }
+  
+  .nav-div {
+    max-width: 1400px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+
+  #favoriteNav {
+    padding-right: 10px;
+    display: flex;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+
+  .navLink {
+    padding-right: 15px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navLink:hover {
+    color: $secondary;
+    transition: 0.4s;
+    animation-delay: 0.2s;
+  }
+
+  .navButton {
+    height: 25px;
+  }

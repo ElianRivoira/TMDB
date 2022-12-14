@@ -1,0 +1,85 @@
+@import "./colors.scss";
+@import "./navbar.scss";
+@import "./home.scss";
+@import "./form.scss";
+@import "./listShows.scss";
+@import "./listFavs.scss";
+@import "./singleShow.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.button {
+  background-color: $secondary;
+  color: black;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: fit-content;
+  margin-right: 15px;
+  padding: 0px 5px;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-size: 15px;
+}
+.button:hover {
+  background-color: $tertiary;
+  transition: 0.4s;
+  animation-delay: 0.1s;
+}
+
+strong:hover {
+  color: $secondary;
+  transition: 0.4s;
+  animation-delay: 0.2s;
+}
+
+ul {
+  list-style-type: none;
+  width: fit-content;
+  padding: 10px 16px 16px;
+  margin: 0;
+  border: 2px solid black;
+  border-radius: 30px;
+  box-shadow: 5px 5px 12px 1px rgba(0, 0, 0, 0.8);
+  background-color: $primary;
+  color: white;
+}
+li {
+  font-size: 20px;
+}
+
+.userLink {
+  padding-right: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.userLink:hover {
+  color: $secondary;
+  transition: 0.4s;
+  animation-delay: 0.2s;
+}
+
+h1 {
+  text-shadow: 1px 1px 4px black;
+}
+
+.back {
+  width: 60px;
+  height: 32px;
+}
+
+.icon {
+  width: 50px;
+  height: 26px;
+}

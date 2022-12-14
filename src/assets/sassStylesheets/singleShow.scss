@@ -1,0 +1,40 @@
+@import "./colors.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divInfo1 {
+  text-align: center;
+}
+
+.img {
+  border-radius: 6%;
+  box-shadow: 5px 5px 7px 1px rgba(0, 0, 0, 0.5);
+}
+
+.divInfo2 {
+  margin-top: 15px;
+  width: fit-content;
+  max-width: 80%;
+  display: flex;
+}
+
+.favButton {
+  position: absolute;
+  width: 26px;
+  height: 27px;
+  left: 87%;
+}
+
+.pageLink {
+  text-decoration: none;
+  color: $secondary;
+}
+.pageLink:hover {
+  color: $tertiary;
+  transition: 0.3s;
+  animation-delay: 0.1s;
+}
